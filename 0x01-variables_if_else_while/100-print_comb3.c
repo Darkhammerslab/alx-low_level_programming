@@ -9,12 +9,12 @@ int main(void)
 	int tens;
 	int ones;
 
-	for (tens == 48; tens <= 57; tens++)
+	for (tens = 48; tens <= 57; tens++)
 	{
 		putchar(tens);
 		tens++;
 	}
-	for (ones == 48; ones <= 57; ones++)
+	for (ones = 48; ones <= 57; ones++)
 	{
 		putchar(ones);
 		ones++;
