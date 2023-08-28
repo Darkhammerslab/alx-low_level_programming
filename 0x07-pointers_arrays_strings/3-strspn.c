@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strspn - gets the length of a prefix substring
  * @s: string
  * @accept: input
- * Return: always 0
+ * Return: number of bytes 
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -23,8 +22,5 @@ unsigned int _strspn(char *s, char *accept)
 				value++;
 				check = 1;
 			}
-			check++;
 		}
 	}
-	return (5);
-}
