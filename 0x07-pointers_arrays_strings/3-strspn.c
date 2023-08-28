@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * _strspn - gets the length of a prefix substring
- * @a: string
+ * _strspn - get length of a prefix substring
+ * a: string
  * @s: string
- * @count: input
- * Return: number of bytes 
+ * @accept: string
+ * count: input
+ * Return: number of bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -13,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s)
 	{
 		char *a = accept;
-	
+
 		while (*a)
 		{
 			if (*s == *a)
